@@ -1,7 +1,7 @@
 <!--
 name: 'Data: Managed Agents endpoint reference'
 description: Comprehensive reference for Managed Agents API endpoints, SDK methods, request/response schemas, error handling, and rate limits
-ccVersion: 2.1.119
+ccVersion: 2.1.120
 -->
 # Managed Agents — Endpoint Reference
 
@@ -333,7 +333,7 @@ Managed Agents endpoints have per-organization request-per-minute (RPM) limits, 
 
 | Endpoint group | Scope | RPM | Max concurrent |
 |---|---|---|---|
-| Create operations (Agents, Sessions, Vaults) | organization | 60 | — |
+| Create operations (Agents, Sessions, Vaults) | organization | 300 | — |
 | All other operations (Agents, Sessions, Vaults) | organization | 600 | — |
 | All operations (Environments) | organization | 60 | 5 |
 
